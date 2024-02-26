@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanshu's Fitness</title>
+  </head>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background: url(/img/bg.jpg);
+      height: 850px;
+      color: white;
+      /* flex-wrap: wrap; */
+    }
+
+    .left {
+      position: absolute;
+      left: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid white; */
+    }
+
+    .left img {
+      width: 150px;
+      height: 60px;
+      object-fit: cover;
+    }
+    .left div {
+      text-align: center;
+      padding-left: 1px;
+    }
+    .mid {
+      display: block;
+      width: 33%;
+      margin: 20px auto;
+      /* border: 2px solid rgb(224, 24, 24); */
+    }
+    .right {
+      display: inline-block;
+      position: absolute;
+      right: 34px;
+      top: 35px;
+      /* border: 2px solid rgb(29, 35, 221); */
+    }
+
+    .navbar {
+      display: inline-block;
+      width: 100%;
+      /* position: fixed; */
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 22px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 16px;
+      margin: 10px -8px;
+    }
+    .navbar a:hover {
+      color: grey;
+      transition: all 1s;
+      text-decoration: underline;
+    }
+    .btn {
+      /* background-color: black; */
+      color: white;
+      padding: 3px 13px;
+      margin: 1px 6px;
+      background-color: transparent;
+      border: 2px solid #494646;
+      border-radius: 5px;
+      font-size: 15px;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    .btn:hover {
+      color: grey;
+      transition: all 1s;
+    }
+
+    .container {
+      border: 3px solid white;
+      margin: 17px 8px;
+      padding: 26px 31px;
+      width: 40%;
+      border-radius: 25px;
+    }
+    .position {
+      height: 90px;
+    }
+    .form-group input {
+      margin: 7px 2px;
+      padding: 9px 6px;
+      width: 300px;
+      border: 2px solid white;
+      border-radius: 13px;
+      color: white;
+      background-color: transparent;
+    }
+    .lorem {
+      display: inline-block;
+      position: absolute;
+      width: 35%;
+      right: 5px;
+      top: 350px;
+    }
+    /* .flex {
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+    } */
+  </style>
+
+  <body>
+    <nav class="position">
+      <header class="header">
+        <div class="left">
+          <img src="/img/bg-img.png" alt="" />
+          <div class="logo">Priyanshu's fitness</div>
+        </div>
+
+        <div class="mid">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <button class="btn">MemberShip's</button
+          ><button class="btn">Offer's</button>
+        </div>
+      </header>
+    </nav>
+    <div class="container">
+      <h1>Welcome to Faridabd's best GYM</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder=" Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder=" Enter your age" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder=" Enter your city" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder=" Enter your phone number" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="lorem">
+      Health and fitness is really means a lot to our life. Students including
+      all the growing age children must know the importance of health and
+      fitness. In order to improve their knowledge about health and fitness as
+      well as improve the skill of English writing, teachers assign them to
+      write paragraphs on health and fitness. Students studying in classes 1, 2,
+      3, 4 or 5 get assigned to write paragraph on health and fitness by their
+      class teacher.
+    </div>
+  </body>
+</html>
